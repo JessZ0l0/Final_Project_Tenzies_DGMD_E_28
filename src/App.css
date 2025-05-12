@@ -1,0 +1,83 @@
+
+/* NAVIGATION STYLING */
+.nav-bar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 1rem;
+}
+
+.nav-bar a {
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+  color: #83878d;
+  text-shadow: rgba(255, 255, 255, 0.842) 1px 1px;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* HOME PAGE STYLING */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;               /* Fill full screen height */
+  width: 100vw;                 /* Prevent horizontal scroll */
+  box-sizing: border-box;          /* Include padding in width */
+
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.game-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+/* FORM STYLING */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+textarea {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #7f5e81;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d2f60;
+}
+
