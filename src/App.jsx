@@ -93,14 +93,24 @@ function My404(){
 }
 
 // React Component: Top-level app wrapped in <Router> for route context
+// function App() {
+//   return (
+//     <Router>
+//       <div className="page-content">
+//         <MyRouteApp />
+//       </div>
+//     </Router>
+//   );
+// }
 function App() {
   return (
-    <Router>
+    <Router basename="/Final_Project_Tenzies_DGMD_E_28">
       <div className="page-content">
         <MyRouteApp />
       </div>
     </Router>
   );
 }
+
 
 export default App;
